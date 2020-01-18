@@ -27,6 +27,14 @@ p {
   font-family: 'Gelasio', serif;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: 'Gelasio', serif;
+  font-weight: bold;
+}
+
 .cards {
   display: flex;
   justify-content: space-around;
