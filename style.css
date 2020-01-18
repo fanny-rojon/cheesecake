@@ -9,26 +9,27 @@ font-family: 'Caveat Brush', cursive;*/
 .container {
   width: 800px;
   align-items: center;
+  margin: 0 auto;
 }
 
 body {
+  /*align-items: center;*/
   background-color: #EDC2E3;
 }
 
-h1, p {
+h1 {
   text-align: center;
+  font-family: 'Parisienne', cursive;
+}
+
+p {
+  text-align: center;
+  font-family: 'Gelasio', serif;
 }
 
 .cards {
   display: flex;
-}
-
-#burrata {
-  font-family: 'Parisienne', cursive;
-}
-
-#cheesecake {
-  font-family: 'Caveat Brush', cursive;
+  justify-content: space-around;
 }
 
 /*Avatar*/
@@ -61,14 +62,14 @@ h1, p {
   background-size: cover;
   background-position: center;
   height: 180px;
-  width: 300px;
+  width: 320px;
   margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 24px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Gelasio', serif;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
