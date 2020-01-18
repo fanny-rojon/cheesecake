@@ -1,16 +1,22 @@
 /*General*/
+
+.container {
+  width: 800px;
+  align-items: center;
+}
+
 body {
   background-color: #EDC2E3;
 }
 
-h1 {
+h1, p {
   text-align: center;
 }
 
-p {
-  text-align: center;
-
+.cards {
+  display: flex;
 }
+
 /*Avatar*/
 .avatar {
   width: 40px;
@@ -36,25 +42,13 @@ p {
   border: white 1px solid;
 }
 
-/*Navbar*/
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-
 /*Cards*/
 .card-category {
   background-size: cover;
   background-position: center;
   height: 180px;
+  width: 300px;
+  margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
