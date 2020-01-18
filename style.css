@@ -1,3 +1,16 @@
+/*General*/
+body {
+  background-color: #EDC2E3;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+
+}
 /*Avatar*/
 .avatar {
   width: 40px;
