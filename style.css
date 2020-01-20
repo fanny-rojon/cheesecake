@@ -67,6 +67,10 @@ a {
 }
 
 /*Cards*/
+.cards-restaurants {
+  /*display: flex;*/
+}
+
 .card-category {
   background-size: cover;
   background-position: center;
