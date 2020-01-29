@@ -67,8 +67,8 @@ a {
 }
 
 /*Cards*/
-.cards-restaurants {
-  /*display: flex;*/
+.card-content {
+  display: flex;
 }
 
 .card-category {
